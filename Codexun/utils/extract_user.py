@@ -1,3 +1,5 @@
+## Copyright (©) Team Codexun
+
 from pyrogram.types import Message
 from pyrogram.types import User
 from datetime import datetime
