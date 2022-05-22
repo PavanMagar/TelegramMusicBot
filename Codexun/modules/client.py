@@ -464,7 +464,7 @@ async def cbcmnds(_, query: CallbackQuery):
 • /menu or /settings
 - For open menu settings
 
-Powered by **{UPDATE}** !""",
+Powered by **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
               [
@@ -494,9 +494,9 @@ async def cbowncmnds(_, query: CallbackQuery):
 - Execute any code
 
 • /leaveall 
-- For leaving assistant from all chats
+- leaving assistant from all chats
 
-Powered by **{UPDATE}** !""",
+Powered by **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
               
@@ -617,7 +617,7 @@ async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id})** 👋
 
-This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME})** bot, a bot for playing high quality and unbreakable music in your groups voice chat.
+This is the from **[{BOT_NAME}](https://t.me/{BOT_USERNAME}),** a bot for playing high quality and unbreakable music in your groups voice chat.
 
 Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
