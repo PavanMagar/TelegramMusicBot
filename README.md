@@ -5,6 +5,13 @@
     <br><b>Telegram music bot which can helps to play music on groups voice chat.</b><br>
 </p>
 
+<p align="center">
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/forks/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/repo-size/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>    
+    <a href="https://github.com/PavanMagar/CodexunMusicBot"> <img src="https://img.shields.io/github/stars/PavanMagar/CodexunMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+</p>
+
 <p align="center"><a href="https://t.me/codexun"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
 <p align="center">
 
