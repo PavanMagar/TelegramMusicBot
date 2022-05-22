@@ -85,7 +85,7 @@ Then simply contact us at support group.
 <summary><b> Click to see credits </b></summary>
 <br>
  
-- callmusic 
+- Callmusic 
 - VCPlayerBot
 - Veez
 - TGVCBot
