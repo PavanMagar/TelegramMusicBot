@@ -1,4 +1,4 @@
-## Copyright© Team Codexun
+## Copyright (©) Team Codexun 
 
 import asyncio
 import importlib
