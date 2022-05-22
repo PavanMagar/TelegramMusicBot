@@ -19,7 +19,7 @@ from Codexun.modules import check_heroku
 @app.on_message(command(["rebootmusic", "restart"]) & filters.user(OWNER_ID))
 @check_heroku
 async def gib_restart(client, message, hap):
-    msg_ = await message.reply_text(f"🔄 `- Restarting...`\n\nit will be take few seconds to start again, please wait...\n\n🤖 **Bot - {BOT_NAME}**")
+    msg_ = await message.reply_text(f"🔄 `- Restarting...`\n\nit will be take few seconds to start again, please wait...\n\n**Bot - {BOT_NAME}** 🤖")
     hap.restart()
 
 
