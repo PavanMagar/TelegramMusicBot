@@ -71,4 +71,4 @@ Then simply contact us at support group.
 
 ## Get Support
 
-<a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><a href="https://t.me/PavanMagar"><img src="https://img.shields.io/badge/Contact-Contact%20Owner-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/PavanMagar"><img src="https://img.shields.io/badge/Cont-%20Developer-blue.svg?style=for-the-badge&logo=Telegram"></a><a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
