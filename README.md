@@ -67,7 +67,7 @@ If you didn't know how to do this
 Then simply contact us at support group.
 # suggesting to select Europe server for lag-free music.
 ```
-<p align="center"><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="https://heroku.com/deploy?template=https://github.com/PavanMagar/CodexunMusicBot"/></a></p>
 
 ## Get Support
 
