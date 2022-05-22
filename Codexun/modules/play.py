@@ -447,7 +447,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**Don't be a crazy, Give me song name to play!\n\nExampl \n/play hamanwa mere**"
+                "**Don't be a crazy 🙅🏻 Give me a song name to play!\n\nExample \n/play hamanwa mere**"
             )
         await lel.edit("**🔍 | Finding...**")
         query = message.text.split(None, 1)[1]
@@ -475,7 +475,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "• **Song not found**\n`write name correctly.`"
+                "• **Song not found**\n\nwrite name correctly."
             )
             print(str(e))
             return
@@ -590,7 +590,7 @@ async def play(_, message: Message):
             )
         except Exception:
             return await lel.edit(
-                "Error Joining Voice Chat. Make sure Voice Chat is Enabled.\n\n If YES, then make sure @{ASSUSERNAME} is not banned in your group!\n\nSupport - {SUPPORT}"
+                "Error Joining Voice Chat. Make sure Voice Chat is Enabled.\n\n If YES, then make sure Music Bots Assistant is not banned in your group or available in your group!"
             )
 
 
