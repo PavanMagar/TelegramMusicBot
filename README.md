@@ -67,8 +67,28 @@ If you didn't know how to do this
 Then simply contact us at support group.
 # suggesting to select Europe server for lag-free music.
 ```
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PavanMagar/CodexunMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PavanMagar/CodexunMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
+<p align="center"><ahref="https://telegram.dog/XTZ_HerokuBot?start=bXVoYW1tYWRyaXpreTE2L0t5eU11c2ljIG1hc3Rlcg"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+
 
 ## Get Support
 
 <a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+
+## Credits
+
+</details>
+
+<details>
+<summary><b> Click to see credits </b></summary>
+<br>
+ 
+- callmusic 
+- VCPlayerBot
+- Veez
+- TGVCBot
+- Yukki
+- PyTgCalls
+
+- Some pirro's thinking that it's a kang of [YukkiMusicBot](https://t.me/TheYukki) for their kind information, This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork YukkiMusicBot wont exist. YukkiMusicBot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of some users.
