@@ -1,3 +1,5 @@
+## Copyright (©) Team Codexun
+
 import heroku3
 import asyncio
 import os
