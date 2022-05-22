@@ -443,7 +443,6 @@ async def cbcmnds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**{BOT_NAME} Bot Commands 💡**
 
-
 • /play (song name) 
 - For playing music
 
@@ -481,7 +480,6 @@ Powered by **{UPDATE}** !""",
 async def cbowncmnds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Owner & Sudo Commands 💡**
-
 
 • /broadcast (massage)
 - Broadcast msg through bot
@@ -583,10 +581,12 @@ async def cberror(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Mostly Faced Errors 💡**
 
-mostly, there wiil be the main error about to music assistant. If you are facing any type of error in your group then that time first make sure @{ASSUSERNAME} is available in your group. If not then add it manually and before that make sure also it is not banned in ur chat.\n\n**Thanks !**""",
+mostly, there wiil be the main error about to music assistant. If you are facing any type of error in your group then that time first make sure @{ASSUSERNAME} is available in your group. If not then add it manually and before that make sure also it is not banned in ur chat.\n\n**Assistant :- @{ASSUSERNAME}**\n\n**Thanks !**""",
         reply_markup=InlineKeyboardMarkup(
             [
-            
+            [
+                    InlineKeyboardButton("Assistant 🙋🏻‍♂️", url=f"https://t.me/{ASSUSERNAME}")
+                ],
               [InlineKeyboardButton("🔙  Back Home", callback_data="cbguide")]]
         ),
     )
@@ -601,12 +601,14 @@ Good news! Now you can allow to make your own music bot like to this one. You wi
 
 If you didn't know how to make your own bot then contact us at @TeamCodexun and get help from us.
 
-🔗 Repo Link : Contact @PavanMagar
+🔗 Repo Link : https://github.com/PavanMagar/CodexunMusicBot
 
 **Thanks !""",
        reply_markup=InlineKeyboardMarkup(
-            [
-              [InlineKeyboardButton("🔙  Back Home", callback_data="cbhome")]]
+            [[
+                    InlineKeyboardButton("Get Repo 📦", url=f"https://github.com/PavanMagar/CodexunMusicBot")
+                ],
+              [InlineKeyboardButton("🔙  Back Home", callback_data="cbabout")]]
         ),
     )
 
@@ -617,7 +619,7 @@ async def cbhome(_, query: CallbackQuery):
 
 This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME})** bot, a bot for playing high quality and unbreakable music in your groups voice chat.
 
-Just add me to your group and make a admin with needed admin permission to perform a right actions !
+Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
 Use the given buttons for more 📍""",
         reply_markup=InlineKeyboardMarkup(
