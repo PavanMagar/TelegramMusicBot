@@ -1,36 +1,19 @@
-<h2 align="centre">Codexun Music Bot</h2>
+<h2 align="centre">Telegram Group Music Player Bot 🎵</h2>
+
+### A bot that can play music on telegram group's voice call
 
 <p align="center">
-    <br><b>Telegram music bot which can helps to play music on groups voice chat.</b><br>
+  <img src="https://telegra.ph/file/e8da463b841d344854539.png">
 </p>
 
-<p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/PavanMagar/CodexunMusic"> <img src="https://img.shields.io/github/forks/xHamaster/CodexunMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/PavanMagar/CodexunMusic"> <img src="https://img.shields.io/github/repo-size/xHamaster/CodexunMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>    
-    <a href="https://github.com/PavanMagar/CodexunMusic"> <img src="https://img.shields.io/github/stars/xHamaster/CodexunMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-</p>
-<p align="center"><a href="https://t.me/codexun"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
-<p align="center">
-
-<p align="center">
-    <br><b>Kangers Welcome You!</b><br>
-</p>
-
-
-<h3>
-
-## Requirements
+<h3>Requirements 📝</h3>
 
 - FFmpeg
 - Python 3.10.0
 - [NodeJS](https://nodesource.com/)
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [MongoDB](https://cloud.mongodb.com/)
 
-
-## Commands List
-
+### Commands 🛠
 #### For all in group
 - `/play <reply/url>` - Youtube url
 - `/play <reply audio>`- Song file to play song
@@ -55,20 +38,22 @@
 - `/exec <code>` - Excute a code
 - `/userbotleaveall` - remove assistant of all groups
 
-## Heroku Deployment
+### Deploy To Heroku</h4>
 
-##### Follow Given
-```sh
-First fork this repo
-Then copy your forked repo url
-Simply now replace it with the button given below
-If you didn't know how to do this
-Then simply contact us at support group.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CrePavan/Broken-by-Ayuu)
 
-# suggesting to select Europe server for lag-free music.
-```
-<p align="center"><a href="https://heroku.com/deploy"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>
++ Recomended use Europe server for deploy on Heroku
 
-## Get Support
-<a href="https://t.me/TeamCodexun"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/codexun"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><a href="https://t.me/PavanMagar"><img src="https://img.shields.io/badge/Contact-Contact%20Owner-blue.svg?style=for-the-badge&logo=Telegram"></a>
+### Get String Session</h5>
+[![Repl String](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](http://replit.com/@UserLazy/UserLazyString)
 
+[![Bot String](https://img.shields.io/badge/%F0%9F%A4%96%20-StringBot-blue)](http://t.me/GetStringXbot)
+
+**NOTE**: Select P (Pyrogram) for pyrogram string
+
+### Credits
+- [UserLazy](https://github.com/UserLazy): Dev
+- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
+- [CallMusic](https://github.com/Callsmusic): CallMusic
+- [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot): Broadcast 
+- [Oda Nobunaga](https://t.me/OdaRobot): Bot

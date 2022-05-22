@@ -1,0 +1,112 @@
+{
+    "name": "Codexun Music",
+    "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
+   "logo": "https://telegra.ph/file/51dbfbcca906105d06f37.jpg",
+    "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
+    "repository": "https://github.com/PavanMagar/CodexunMusic",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string of your assistant account",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "2056407064"
+        },
+        "ASSID": {
+            "description": "fill with telegram id of your assistant account",
+            "required": true,
+            "value": ""
+        },
+        "ASSNAME": {
+            "description": "fill with telegram name of your assistant account",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "fill with telegram username of your assistant account without @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "fill with telegram id of your bot",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "fill with telegram username of bot without @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "fill with telegram name of bot",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "fill with your bot support group, please fill valid username",
+            "required": false,
+            "value": "TeamCodexun"
+        },
+        "UPDATE": {
+            "description": "fill with your bot update channel, please fill valid username",
+            "required": false,
+            "value": "Codexun"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Add the Heroku app name here. As filled in the top. It helps with restart bot.",
+            "required": true,
+            "value": ""
+        },
+        "START_IMG": {
+            "description": "Set your own music bot image which comes after /start command in bots pm",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id who can you want to set as sudo user (separate with space).",
+            "required": true,
+            "value": "2056407064"
+        },
+        "DURATION_LIMIT": {
+            "description": "filled, don't change this !",
+            "required": true,
+            "value": "180"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
+            "required": true,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
