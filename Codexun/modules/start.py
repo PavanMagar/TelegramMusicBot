@@ -16,7 +16,7 @@ async def start_(client: Client, message: Message):
         photo=f"{START_IMG}",
         caption=f"""**Welcome {message.from_user.mention()}** 👋
 
-This is the from **[{BOT_NAME}](https://t.me/{BOT_USERNAME}),** a bot for playing high quality and unbreakable music in your groups voice chat.
+This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) bot,** a bot for playing high quality and unbreakable music in your groups voice chat.
 
 Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
