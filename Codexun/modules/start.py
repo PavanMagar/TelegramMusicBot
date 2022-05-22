@@ -18,7 +18,7 @@ async def start_(client: Client, message: Message):
 
 This is the from **[{BOT_NAME}](https://t.me/{BOT_USERNAME}),** a bot for playing high quality and unbreakable music in your groups voice chat.
 
-Just add me to your group and make a admin with needed admin permission to perform a right actions !
+Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
 Use the given buttons for more 📍""",
     reply_markup=InlineKeyboardMarkup(
