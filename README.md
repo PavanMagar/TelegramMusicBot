@@ -68,7 +68,7 @@ Then simply contact us at support group.
 # suggesting to select Europe server for lag-free music.
 ```
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/PavanMagar/CodexunMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" target="_blank"/></a></p>  
-<p align="center"><ahref="https://t.me/XTZ_HerokuBot?start"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+<p align="center"><a href="https://t.me/XTZ_HerokuBot"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 
 ## Get Support
