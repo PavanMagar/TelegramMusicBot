@@ -1,3 +1,5 @@
+## Copyright (©) Team Codexun
+
 import asyncio
 import requests
 from pyrogram import Client
