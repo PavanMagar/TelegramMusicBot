@@ -1,5 +1,5 @@
 {
-    "name": "Codexun Music",
+    "name": "Codexun Music Bot",
     "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
    "logo": "https://telegra.ph/file/51dbfbcca906105d06f37.jpg",
     "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
