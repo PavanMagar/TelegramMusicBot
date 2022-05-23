@@ -458,7 +458,7 @@ async def cbcmnds(_, query: CallbackQuery):
 • /search (song name) 
 - For searching music
 
-• /song or /resso 
+• /song 
 - For download music
 
 • /menu or /settings
