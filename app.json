@@ -96,7 +96,7 @@
             "value": ""
         },
         "MONGO_DB_URI": {
-            "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
+            "description": "fill with the mongodb url get from mongodb.com (don't use mine below !)",
             "required": true,
             "value": ""
         }
