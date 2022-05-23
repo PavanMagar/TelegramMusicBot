@@ -57,6 +57,10 @@
 - `/exec <code>` - Excute a code
 - `/userbotleaveall` - remove assistant of all groups
 
+###  GET STRING SESSION FROM REPL RUN
+
+ [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TeamCodexun/Codexun-String?v=1)
+
 ## Heroku Deployment
 
 ##### Follow Given
