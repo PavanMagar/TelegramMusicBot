@@ -19,6 +19,8 @@
     <br><b>Kangers Welcome You!</b><br>
 </p>
 
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=PavanMagar&repo=CodexunMusicBot&theme=dark)
+
 
 <h3>
 
