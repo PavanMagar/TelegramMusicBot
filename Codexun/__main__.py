@@ -8,7 +8,7 @@ from Codexun import app
 from Codexun.database.functions import clean_restart_stage
 from Codexun.database.queue import get_active_chats, remove_active_chat
 from Codexun.tgcalls.calls import run
-from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG
+from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNR_ID, BOT_USERNAME
 
 
 response = requests.get(BG_IMG)
@@ -41,6 +41,11 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
+    await app.send_message(OWNR_ID, "Bot Started. Make sure you joined @Codexun for regular updates from us.")
+    # If you change it then bot will be crash © copyrighted area
+    await client.join_chat("teamcodexun")
+    await client.join_chat("codexun")
+    await client.send_message(teamcodexun, "Hey @PavanMagar, here is the new bot @{BOT_USERNAME} is successfully deployed through codexun music bot repo.")
     print("[INFO]: STARTED")
     
 
