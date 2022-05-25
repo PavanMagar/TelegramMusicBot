@@ -31,7 +31,7 @@ async def addchannel(client, message):
             link_bokep = f"https://t.me/joinchat/{kontol}"
     except:
         await message.reply_text(
-            "**Add me admin first**",
+            "**Add me as a admin first**",
         )
         return
 
