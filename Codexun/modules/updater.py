@@ -60,4 +60,4 @@ async def update_repo(_, message: Message):
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
-    await msg.edit("{BOT_NAME} is already in up-to-date with **[main version](https://github.com/PavanMagar/CodexunMusicBot)**", disable_web_page_preview=True)
+    await msg.edit("Bot is already in up-to-date with **[main version](https://github.com/PavanMagar/CodexunMusicBot)**", disable_web_page_preview=True)
