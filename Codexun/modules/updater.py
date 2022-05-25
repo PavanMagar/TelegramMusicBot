@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from os import system, execle, environ
 from git.exc import InvalidGitRepositoryError
 from Codexun.utils.decorators import sudo_users_only
-from Codexun.config import UPSTREAM_REPO, BOT_USERNAME, SUDO_USERS
+from Codexun.config import UPSTREAM_REPO, BOT_USERNAME, SUDO_USERS, BOT_NAME
 
 
 def gen_chlog(repo, diff):
@@ -53,11 +53,11 @@ def updater():
 @sudo_users_only
 async def update_repo(_, message: Message):
     chat_id = message.chat.id
-    msg = await message.reply("🔄 `processing update...`")
+    msg = await message.reply("`checking for updates..`")
     update_avail = updater()
     if update_avail:
-        await msg.edit("✅ update finished\n\n• bot restarted, back active again in 1 minutes.")
+        await msg.edit("🔄 `processing update...`\n\nit will be take few seconds to start again, please wait...\n\nBranch :- [main](https://github.com/PavanMagar/CodexunMusicBot)")
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
-    await msg.edit("bot is **up-to-date** with [main](https://github.com/PavanMagar/CodexunMusicBot)", disable_web_page_preview=True)
+    await msg.edit("{BOT_NAME} is already in up-to-date with **[main version](https://github.com/PavanMagar/CodexunMusicBot)**", disable_web_page_preview=True)
