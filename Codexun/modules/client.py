@@ -281,17 +281,6 @@ menu_keyboard = InlineKeyboardMarkup(
 )
 
 
-
-
-@Client.on_message(command(["menu", "settings"]) & filters.group & ~filters.edited)
-async def menu(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"{START_IMG}",
-        caption=f"""**Hey {message.from_user.mention()}** 👋
-This the menu section where you can manage music playing on your groups voice chat. Use the given buttons for manage!""",
-    reply_markup=menu_keyboard
-    )
-
 @Client.on_callback_query(filters.regex("skipvc"))
 async def skipvc(_, CallbackQuery):
     a = await app.get_chat_member(
