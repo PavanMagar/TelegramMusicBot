@@ -21,7 +21,7 @@ This is the **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Bot,** a bot for playing
 
 Just add me to your group & make as a admin with needed admin permissions to perform a right actions, now let's enjoy your music!
 
-Use the given buttons for more 📍""",
+Use the given buttons for more info📍""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
