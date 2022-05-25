@@ -1,7 +1,7 @@
-## Copyright (©) Team Codexun 
-
 import asyncio
 import importlib
+from pytgcalls import PyTgCalls
+import time
 from pyrogram import Client
 from Codexun import config
 
@@ -14,6 +14,18 @@ BOT_USERNAME = ""
 ASSID = config.ASSID
 ASSNAME = ""
 ASSUSERNAME = ""
+SUDOERS = SUDO_USERS
+OWNER = OWNER_ID
+
+### Boot Time
+boottime = time.time()
+
+### auto
+smexy = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
+pytgcalls = PyTgCalls(smexy)
+
+### Music Start Time
+Music_START_TIME = time.time()
 
 app = Client(
     "codexunmusic",
