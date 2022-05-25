@@ -65,6 +65,16 @@
             "required": true,
             "value": ""
         },
+        "UPSTREAM_REPO": {
+            "description": "If you don't know this, Leave it as is or in /skip",
+            "value": "https://github.com/PavanMagar/CodexunMusicBot",
+            "required": true
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "Repo branch name, if you don't know, go to /skip",
+            "value": "master",
+            "required": true
+        },
         "START_IMG": {
             "description": "Set your own music bot image which comes after /start command in bots pm",
             "required": true,
