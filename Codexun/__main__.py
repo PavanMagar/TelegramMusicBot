@@ -9,7 +9,7 @@ from Codexun import client
 from Codexun.database.functions import clean_restart_stage
 from Codexun.database.queue import get_active_chats, remove_active_chat
 from Codexun.tgcalls.calls import run
-from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID, BOT_NAME, MSG_CHAT
+from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID, BOT_NAME
 
 
 response = requests.get(BG_IMG)
