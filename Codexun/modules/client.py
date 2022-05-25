@@ -484,6 +484,18 @@ async def cbowncmnds(_, query: CallbackQuery):
 • /exec
 - Execute any code
 
+• /stats
+- Get all statistics
+
+• /ping 
+- Pinging uptime
+
+• /update
+- Update bot with latest version
+
+• /gban or /ungban
+- Global Ban system
+
 • /leaveall 
 - leaving assistant from all chats
 
