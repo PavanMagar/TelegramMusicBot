@@ -6,6 +6,7 @@ from pytgcalls import (__version__ as pytover)
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, ChatJoinRequest
 from Codexun.utils.filters import command
 
+from Codexun import BOT_NAME, BOT_USERNAME
 from Codexun.config import BOT_USERNAME 
 from Codexun.config import BOT_NAME
 from Codexun.config import START_IMG
