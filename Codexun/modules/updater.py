@@ -53,7 +53,7 @@ def updater():
 @sudo_users_only
 async def update_repo(_, message: Message):
     chat_id = message.chat.id
-    msg = await message.reply("`checking for updates..`")
+    msg = await message.reply("checking for updates..")
     update_avail = updater()
     if update_avail:
         await msg.edit("🔄 `processing update...`\n\nit will be take few seconds to start again, please wait...\n\nBranch :- [main](https://github.com/PavanMagar/CodexunMusicBot)")
