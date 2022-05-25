@@ -50,6 +50,8 @@ from Codexun.database.queue import (
     is_music_playing,
     music_off,
 )
+
+from Codexun import BOT_NAME, BOT_USERNAME
 from Codexun import app
 import Codexun.tgcalls
 from Codexun.tgcalls import youtube
