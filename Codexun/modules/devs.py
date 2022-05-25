@@ -50,7 +50,7 @@ async def update(_, message: Message):
         await start_restart_stage(x.chat.id, x.message_id)
         os.execvp("python3", ["python3", "-m", "Codexun"])
     else:
-        await message.reply_text("Bot is already in the **up-to-date** mode with [main version](https://github.com/PavanMagar/CodexunMusicBot)", disable_web_page_preview=True)
+        await message.reply_text("Bot is already in the **up-to-date** mode with **[latest version](https://github.com/PavanMagar/CodexunMusicBot)**", disable_web_page_preview=True)
         
 async def aexec(code, client, message):
     exec(
