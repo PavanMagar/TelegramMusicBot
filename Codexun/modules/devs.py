@@ -41,9 +41,9 @@ async def edit_or_reply(msg: Message, **kwargs):
     spec = getfullargspec(func.__wrapped__).args
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
-@Client.on_message(command("updte") & filters.user(OWNER))
+@Client.on_message(command("update") & filters.user(OWNER))
 @errors
-async def updte(_, message: Message):
+async def update(_, message: Message):
     m = subprocess.check_output(["git", "pull"]).decode("UTF-8")
     if str(m[0]) != "A":
         x = await message.reply_text("Found Update! updating...")
