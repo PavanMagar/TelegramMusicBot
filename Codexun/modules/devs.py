@@ -12,7 +12,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from Codexun import app, OWNER
-from Codexun.config import OWNER_ID, BOT_NAME
+from Codexun.config import OWNER_ID, BOT_NAME, UPSTREAM_REPO, UPSTREAM_BRANCH
 from Codexun.database.chats import blacklist_chat, blacklisted_chats, whitelist_chat
 from Codexun.utils.decorators import sudo_users_only
 from Codexun.utils.decorators import errors
