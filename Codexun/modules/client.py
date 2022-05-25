@@ -452,9 +452,6 @@ async def cbcmnds(_, query: CallbackQuery):
 • /song 
 - For download music
 
-• /menu or /settings
-- For open menu settings
-
 Powered by **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
             [
