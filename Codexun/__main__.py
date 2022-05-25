@@ -9,7 +9,7 @@ from Codexun import client
 from Codexun.database.functions import clean_restart_stage
 from Codexun.database.queue import get_active_chats, remove_active_chat
 from Codexun.tgcalls.calls import run
-from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID
+from Codexun.config import API_ID, API_HASH, BOT_TOKEN, BG_IMG, OWNER_ID, BOT_NAME, MSG_CHAT
 
 
 response = requests.get(BG_IMG)
@@ -42,7 +42,7 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass
-    await app.send_message(OWNER_ID, "Bot Started Successfully\n\nMake sure you joined @Codexun for regular updates from us.")
+    await app.send_message(OWNER_ID, "**Bot Started Successfully**\n\nMake sure you joined @Codexun for regular updates from us.")
     # If you change it then bot will be crash © copyrighted area
     await client.join_chat("teamcodexun")
     await client.join_chat("codexun")
