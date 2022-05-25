@@ -1,5 +1,8 @@
 import os
 import sys
+import shutil
+import re
+import subprocess
 import traceback
 from inspect import getfullargspec
 from io import StringIO
@@ -8,12 +11,14 @@ from time import time
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Codexun import app
+from Codexun import app, OWNER
 from Codexun.config import OWNER_ID, BOT_NAME
 from Codexun.database.chats import blacklist_chat, blacklisted_chats, whitelist_chat
 from Codexun.utils.decorators import sudo_users_only
+from Codexun.utils.decorators import errors
 from Codexun.utils.filters import command
 from Codexun.modules import check_heroku
+from Codexun.database.functions import start_restart_stage
 
 
 @app.on_message(command(["rebootmusic", "restart"]) & filters.user(OWNER_ID))
@@ -23,6 +28,30 @@ async def gib_restart(client, message, hap):
     hap.restart()
 
 
+async def aexec(code, client, message):
+    exec(
+        "async def __aexec(client, message): "
+        + "".join(f"\n {a}" for a in code.split("\n"))
+    )
+    return await locals()["__aexec"](client, message)
+
+
+async def edit_or_reply(msg: Message, **kwargs):
+    func = msg.edit_text if msg.from_user.is_self else msg.reply
+    spec = getfullargspec(func.__wrapped__).args
+    await func(**{k: v for k, v in kwargs.items() if k in spec})
+
+@Client.on_message(command("updte") & filters.user(OWNER))
+@errors
+async def updte(_, message: Message):
+    m = subprocess.check_output(["git", "pull"]).decode("UTF-8")
+    if str(m[0]) != "A":
+        x = await message.reply_text("Found Update! updating...")
+        await start_restart_stage(x.chat.id, x.message_id)
+        os.execvp("python3", ["python3", "-m", "Codexun"])
+    else:
+        await message.reply_text("It's Up To Date With The [Latest Version](https://github.com/PavanMagar/CodexunMusicBot)", disable_web_page_preview=True)
+        
 async def aexec(code, client, message):
     exec(
         "async def __aexec(client, message): "
