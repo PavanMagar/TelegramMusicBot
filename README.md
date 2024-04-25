@@ -1,5 +1,5 @@
 
-<h2 align="centre">Codexun Music Bot</h2>
+<h2 align="centre">Telegram Music Bot</h2>
 
 <p align="center">
     <br><b>Telegram music bot which can helps to play music on groups voice chat.</b><br>
