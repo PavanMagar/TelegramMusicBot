@@ -12,17 +12,16 @@
     <a href="https://github.com/PavanMagar/TelegramMusicBot"> <img src="https://img.shields.io/github/stars/PavanMagar/TelegramMusicBot?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
 </p>
 
-<p align="center"><a href="https://t.me/codexun"><img src="https://telegra.ph/file/5a49680de5759f290ad8d.jpg"></a></p>
-<p align="center">
+<br>
 
 <p align="center">
-    <br><b>Kangers Welcome You!</b><br>
-</p>
 
+<p align="center"
+    
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=PavanMagar&repo=CodexunMusicBot&theme=dark)
 
-
-<h3>
+</p>
+</p>
 
 ## Requirements
 
